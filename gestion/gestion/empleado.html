@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabla de Empleados</title>
+  <script src="js/scripts.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<!-- en este archivo se muestra una tabla con los empleados de la empresa, 
+  se muestra su nombre, apellidos, puesto y salario. 
+Al final de la tabla se muestra un botón que al 
+presionarlo se muestra el total de salarios de los empleados. 
+la idea es podere sacar las nominas de los empleados por departamento o puesto-->
+  <h2>Tabla de Empleados</h2>
+  
+  <table>
+    <tr>
+      <th>Nombre</th>
+      <th>Apellidos</th>
+      <th>Puesto</th>
+      <th>Salario</th>
+    </tr>
+    <tr>
+      <td>Juan</td>
+      <td>Pérez López</td>
+      <td>ingeniero</td>
+      <td>$10,000</td>
+    </tr>
+    <tr>
+      <td>Maria</td>
+      <td>Gómez Rodríguez</td>
+      <td>analista</td>
+      <td>$15,000</td>
+    </tr>
+    <tr>
+      <td>Carlos</td>
+      <td>Fernández García</td>
+      <td>Gerente</td>
+      <td>$10,000</td>
+    </tr>
+    <tr>
+      <td>Ana</td>
+      <td>Ruiz Jiménez</td>
+      <td>asistente</td>
+      <td>$18,000</td>
+    </tr>
+    <tr>
+      <td>Luis</td>
+      <td>Martínez Pérez</td>
+      <td>gerente</td>
+      <td>$15,000</td>
+    </tr>
+  </table>
+  <button onclick="calcularTotalSalarios()">Calcular Total de Salarios</button>
+  <p id="totalSalarios"></p>
+</body>
+</html>

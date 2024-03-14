@@ -1,0 +1,91 @@
+/* Estilos para las cajas de selección (select) */
+select {
+    width: calc(100% - 20px); /* Ancho de la caja de selección menos el padding */
+    padding: 8px; /* Espaciado interno */
+    margin-bottom: 20px; /* Margen inferior */
+    border: 1px solid #007bff; /* Borde con color azul brillante */
+    border-radius: 5px; /* Borde redondeado */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos para el cuerpo (body) */
+body {
+    font-family: Arial, sans-serif; /* Familia de fuentes */
+    background-color: #f0f8ff; /* Color de fondo */
+    margin: 0; /* Elimina el margen */
+    padding: 0; /* Elimina el relleno */
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    max-width: 400px; /* Ancho máximo */
+    margin: 20px auto; /* Margen externo superior e inferior, centrado horizontalmente */
+    padding: 20px; /* Relleno interno */
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos para la imagen del empleado */
+.employee-image {
+    display: block; /* Hace que la imagen sea un elemento de bloque */
+    margin: 0 auto 20px; /* Margen inferior y centrado horizontalmente */
+    border-radius: 50%; /* Borde redondeado para hacer un círculo */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+
+/* Estilos para los títulos (h2) */
+h2 {
+    font-size: 20px; /* Tamaño de la fuente */
+    color: #007bff; /* Color azul brillante */
+    margin-bottom: 10px; /* Margen inferior */
+}
+
+/* Estilos para campos de entrada de número y cajas de selección */
+input[type="number"],
+select {
+    width: calc(100% - 20px); /* Ancho del elemento menos el padding */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 20px; /* Margen inferior */
+    border: 1px solid #007bff; /* Borde con color azul brillante */
+    border-radius: 5px; /* Borde redondeado */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos para cuando un campo de entrada de número o caja de selección está enfocado */
+input[type="number"]:focus,
+select:focus {
+    outline: none; /* Elimina el contorno predeterminado */
+    border-color: #0056b3; /* Color del borde al enfocar */
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.3); /* Sombra azul cuando está enfocado */
+}
+
+/* Estilos para los resultados (id="resultado" e id="resultado1") */
+#resultado,
+#resultado1 {
+    font-size: 18px; /* Tamaño de la fuente */
+    color: #0056b3; /* Color azul oscuro */
+    margin-top: 20px; /* Margen superior */
+}
+
+/* Estilos para las tablas */
+table {
+    width: 100%; /* Ancho completo */
+    border-collapse: collapse; /* Colapsa los bordes de la tabla */
+    margin-top: 20px; /* Margen superior */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos para las celdas de tabla (th y td) */
+th, td {
+    border: 1px solid #dddddd; /* Borde gris */
+    text-align: left; /* Alineación del texto a la izquierda */
+    padding: 8px; /* Espaciado interno */
+}
+
+/* Estilos para las celdas de encabezado de tabla (th) */
+th {
+    background-color: #f2f2f2; /* Fondo gris claro */
+}

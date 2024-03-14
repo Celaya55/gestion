@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salario con Horas Extra</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js"></script>
+</head>
+<body>
+    <h5>Salario por Empleado</h5>
+    <img src="images/1.jpg" alt="Empleado" height="105px"  width="100px" onclick="window.location.href='empleado.html';">
+
+    <h2>Ingresa las horas trabajadas</h2>
+    <input type="number" min="0" id="numero" placeholder="Número de horas" oninput="calcularSalario()">
+
+    <h2>Selecciona puesto</h2>
+    <select id="puesto" onchange="calcularSalario()">
+        <option value="ingeniero">Ingeniero</option>
+        <option value="analista">Analista</option>
+        <option value="gerente">Gerente</option>
+        <option value="asistente">Asistente</option>
+    </select>
+
+    <h2>Ingresa las horas extras trabajadas</h2>
+    <input type="number" min="0" id="horasextra" placeholder="Número de horas" oninput="calcularHorasExtra()">
+
+    <!-- Resultados -->
+    <h2 id="resultado">Salario por día: </h2>
+    <h2 id="resultado1">Salario por día (incluyendo horas extra): </h2>
+
+</body>
+</html>
